@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "cypress"
+  ],
+  "env": {
+    "cypress/globals": true,
+    "mocha": true
+  },
+  "extends": [
+    "plugin:cypress/recommended"
+  ],
+  "globals": {
+    "cy": "readonly"
+  }
+}

@@ -5,6 +5,7 @@
   "dependencies": {
     "cypress": "^3.1.5",
     "react": "^16.8.4",
+    "react-bulma-components": "^2.3.0",
     "react-dom": "^16.8.4",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -27,5 +28,16 @@
   ],
   "devDependencies": {
     "eslint-plugin-cypress": "^2.2.1"
-  }
+  },
+  "description": "Portfolio Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekg-91/portfolio_mk2.git"
+  },
+  "author": "Elliot Gallagher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekg-91/portfolio_mk2/issues"
+  },
+  "homepage": "https://github.com/ekg-91/portfolio_mk2#readme"
 }

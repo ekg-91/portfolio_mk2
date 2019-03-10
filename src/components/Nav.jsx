@@ -1,18 +1,27 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
   render() {
     return (
-      <div>
-        <h1>EKG Software Engineering</h1>
-        <ul>
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/About'>About</NavLink></li>
-          <li><NavLink to='/Projects'>Projects</NavLink></li>
-          <li><NavLink to='/Resume'>Resumé</NavLink></li>
-          <li><NavLink to='/Contact'>Contact</NavLink></li>
-        </ul>
+      <div class='navbar is-primary columns'>
+        <div class='navbar-brand column is-half'>
+          <h1 class='has-text-white is-large'>EKG Software Engineering</h1>
+          <div role='button' class='navbar-burger' aria-label='menu' aria-expanded='false'>
+            <span aria-hidden='true'></span>
+            <span aria-hidden='true'></span>
+            <span aria-hidden='true'></span>
+          </div>
+        </div>
+        <div class='navbar-menu column is-half'>
+          <div class='navbar-start'>
+            <div class='button navbar-item'><Link to='/'>Home</Link></div>
+            <div class='button navbar-item'><Link to='/About'>About</Link></div>
+            <div class='button navbar-item'><Link to='/Projects'>Projects</Link></div>
+            <div class='button navbar-item'><Link to='/Resume'>Resumé</Link></div>
+            <div class='button navbar-item'><Link to='/Contact'>Contact</Link></div>
+          </div>
+        </div>
       </div>
     );
   }
